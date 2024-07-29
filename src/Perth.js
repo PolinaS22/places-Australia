@@ -104,6 +104,9 @@ export default function Perth() {
                 <div className="container lineTitle">
                     <h3 className="smallText">Customize your souvenir basket</h3>
                 </div>
+                <div className="facts">
+                    <button className="btn btnPlace" onClick={() => setSouvenirs([])}>Delete all</button>
+                </div> 
                 <div className="containerGifts">
                     {souvenirs.map(((item, id) => {
                         const {picture, name, place} = item;
