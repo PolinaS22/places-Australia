@@ -1,0 +1,212 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.containerFacts {
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+}
+.containerButtons {
+   margin: 50px;
+}
+.titleContainer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.verticalCenter {
+    align-items: center;
+}
+.spaceRight {
+    margin-right: 150px;
+}
+.facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(239, 241, 241);
+    font-size: 70px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(182, 182, 182, 0.096);
+    padding: 20px 65px;
+}
+.bigText {
+    font-size: 50px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.MelbCont {
+    background-image: url(https://images.unsplash.com/photo-1545044846-351ba102b6d5?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PerthCont {
+    background-image: url(https://images.unsplash.com/photo-1610263514501-381fed0200c0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SydCont {
+    background-image: url(https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgTop {
+    box-shadow: 5px 5px 10px ;
+    width: 380px;
+}
+
+.lineTitle {
+    padding: 30px 0 10px 0;
+}
+.highlight {
+    background-color: rgba(0, 26, 20, 0.849);
+    color: rgb(231, 230, 230);
+}
+
+.smallText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(88, 84, 78, 0.377);
+    color: rgba(248, 245, 231, 0.959);
+
+}
+.description {
+    text-align: center;
+    width: 500px;
+    font-weight: 300;
+}
+.place h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.containerGifts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gift {
+    width: 300px;
+    height: 350px;
+    padding-bottom: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(211, 208, 198, 0.534);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+}
+.gift img {
+   width: 100%;
+}
+.name {
+    font-weight: 500;
+    font-size: 17px;
+
+}
+.boxOne {
+    background-color: rgba(248, 245, 231, 0.959);
+}
+.boxTwo {
+    background-color: rgba(128, 122, 110, 0.575);
+}
+.boxTwo h3 {
+    color: rgba(248, 245, 231, 0.959);
+    font-weight: 400;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnPlace {
+    font-size: 20px;
+}
+.btnPlace:hover {
+    text-decoration: underline;
+}
+
+.link {
+    color: rgba(248, 245, 231, 0.959);
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 950px) {
+    .containerFacts {
+        flex-wrap: wrap;
+        width: auto;
+        justify-content: center;
+    }
+    .spaceRight {
+        margin-right: 20px;
+    }
+    .bigText {
+        font-size: 40px;
+        margin: 10px;
+        line-height: 35px;
+    }
+
+    .imgTop {
+        width: 280px;
+    }
+    .containerButtons {
+        margin: 6px;
+    }
+}
+
