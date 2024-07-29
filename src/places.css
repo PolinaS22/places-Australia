@@ -1,4 +1,24 @@
 
+.bodyMain {
+    background-color: rgb(194, 221, 230);
+    height: 100%;
+
+}
+.titleMain {
+    padding: 50px;
+}
+.titleMain p {
+    color: rgb(239, 241, 241);
+    font-size: 60px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(182, 182, 182, 0.096);
+    padding: 20px 65px;
+    margin: 0;
+}
 
 .container {
     display: flex;
@@ -186,6 +206,50 @@ h1 {
     cursor: pointer;
 }
 
+.containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnDestination {
+    padding: 60px;
+    margin: 20px 50px;
+    background: rgba(224, 221, 211, 0.534);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: none;
+    border-radius: 10px;
+    width: 750px;
+    height: 150px;
+}
+
+.btnMelb {
+    background-image: url(https://images.unsplash.com/photo-1610263514501-381fed0200c0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.btnPer {
+    background-image: url(https://images.unsplash.com/photo-1610263514501-381fed0200c0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnSyd {
+    background-image: url(https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.linkMain {
+    color: rgb(255, 253, 253);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+}
 
 @media all and (max-width: 950px) {
     .containerFacts {
@@ -207,6 +271,12 @@ h1 {
     }
     .containerButtons {
         margin: 6px;
+    }
+    .btnDestination {
+        width: 400px;
+    }
+    .titleMain p {
+        font-size: 50px;
     }
 }
 
