@@ -8,7 +8,6 @@ import './App.css';
 import { dataMelbourne } from "./data/dataMelbourne";
 import { dataPerth } from "./data/dataPerth";
 import { dataSydney } from "./data/dataSydney";
-
 import { souvenirsPerth } from "./data/souvenirsPerth";
 import { souvenirsMelbourne } from "./data/souvenirsMelbourne";
 import { souvenirsSydney } from "./data/souvenirsSydney";
@@ -17,10 +16,6 @@ import { dataInfoSydney } from "./data/dataInfoSydney";
 import { dataInfoPerth } from "./data/dataInfoPerth";
 
 import City from "./City";
-
-
-
-
 function App() {
 
   const router = createBrowserRouter([
@@ -42,7 +37,7 @@ function App() {
     //   element: <Perth/>
     // }
 
-    // TEST
+
     {
       path: '/melbourne',
       element: <City dataCity={dataMelbourne} dataSouvenirs={souvenirsMelbourne} dataInfo={dataInfoMelbourne}/>
@@ -55,8 +50,6 @@ function App() {
       path: '/perth',
       element: <City dataCity={dataPerth} dataSouvenirs={souvenirsPerth} dataInfo={ dataInfoPerth }/>
     },
-    
-
   ]);
 
   

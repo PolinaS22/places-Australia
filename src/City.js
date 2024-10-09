@@ -46,10 +46,6 @@ export default function City({ dataCity, dataSouvenirs, dataInfo }) {
 
     return(
         <div>
-            {/* <div className="titleContainer cont-bg-img MelbCont">
-                <h1>{ dataInfo.cityName }</h1>
-            </div> */}
-
             <div className={`titleContainer cont-bg-img ${backgroundClass}`}>
                 <h1>{ dataInfo.cityName }</h1>
             </div>
