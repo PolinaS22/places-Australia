@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import './places.css'
 
+
 export default function Main() {
 
     return (
@@ -8,6 +9,8 @@ export default function Main() {
             <div className="titleMain">
                 <p>Welcome. Choose your destination:</p>
             </div>
+
+
            <div className='containerMain'>
                 <div className="btnDestination btnMelb">
                     <Link className="linkMain" to="/melbourne">Melbourne</Link>
@@ -19,6 +22,9 @@ export default function Main() {
                     <Link className="linkMain" to="/perth">Perth</Link>
                 </div>
            </div>
+
+
+
         </div>
     )
 }
